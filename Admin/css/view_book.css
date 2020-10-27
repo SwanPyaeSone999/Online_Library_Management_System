@@ -1,0 +1,23 @@
+
+.search-button{
+	color:#000;
+	font-size: 22px;
+}
+.search-button:hover{
+	
+	color: green;
+	text-decoration: none;
+}
+.search-text{
+	border: none;
+	outline: none;
+	width:0px;
+	line-height: 30px;
+	color:#000;
+	width: 50%;
+	border-bottom: 1px solid #000;
+	position: relative;
+	top: 0%;
+	transition:4s;
+	
+}

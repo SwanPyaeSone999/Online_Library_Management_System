@@ -1,0 +1,18 @@
+
+
+.slideup{
+	animation: Slide_up 1.4s ease;
+}
+
+@keyframes Slide_up{
+	from{
+		transform: translateY(250px);
+		margin-bottom: 100%;
+
+	}
+	to{
+		transform: translateY(0);
+		margin-top: 0%;
+	}
+
+}

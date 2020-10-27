@@ -1,0 +1,149 @@
+
+body {          
+ font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+font-size: 14px;
+color: #000;
+margin:0;
+ padding: 0;
+ background: #FBEBFC !important;
+ 
+
+}
+
+.font-author{
+  color: #E1AA80;
+}
+.dropdown-item:hover{
+  border-bottom: 1px solid #F4F1EA;
+}
+
+.navbar-toggler:focus{
+ border: none;
+ outline: none;
+}
+.search{
+  
+  height: 40px;
+  border-radius: 40px;
+  
+  background: #F4F1EA;
+}
+
+.search:hover >.search-text{
+  width: 400px;
+  border-bottom: 1px solid #000;
+}
+.search-button{
+  color:#000;
+  font-size: 22px;
+}
+.search-button:hover{
+  
+  color: green;
+  text-decoration: none;
+}
+.search-text{
+  border: none;
+  outline: none;
+  width:0px;
+  line-height: 30px;
+  color:#000;
+  width: 0px;
+  position: relative;
+  top: 0%;
+  transition:4s;
+  background:#F4F1EA ;
+}
+
+nav {
+  background: #F4F1EA;
+
+}
+nav li a:hover{
+  border-bottom: 1px solid black;
+  transition:0.5s;
+  transform: translateY(15%);
+}
+
+@media screen and (max-width: 768px){
+  .search:hover >.search-text{
+  width: 200px;
+  border-bottom: 1px solid #000;
+  }
+}
+
+.swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+}
+.swiper-container {
+width: 100%;
+padding-top: 50px;
+}      
+.swiper-slide {
+background-position: center;
+background-size: cover;
+width:300px;
+height: 0px;
+background:#FFFFFF;
+color: #fff;
+}
+.swiper-slide .imgBx img{
+width: 300px;
+height: 300px;
+border-radius: 5px;
+}
+.swiper-slide .details{
+box-sizing: border-box;
+padding: 20px;
+background:#fff;
+}
+ .swiper-slide .details h3{
+ margin: 0;
+ padding: 0;
+ font-weight: bold;
+text-align: center;
+background:#fff;
+}
+.swiper-slide .details h3 span{
+  color: purple;
+  font-size: 16px;
+  background:#fff;
+   }
+.font-lemon{
+  font-family: 'Lemonada', cursive;
+}
+.font-play{
+  font-family: 'Playfair Display', serif;
+}
+.font-tit{
+  font-family: 'Titillium Web', sans-serif;
+}
+.font-flower{
+  font-family: 'Indie Flower', cursive;
+}
+.font-10{
+  font-size: 10px;
+}
+.font-12{
+  font-size: 12px;
+}
+.font-14{
+  font-size: 14px;
+}
+.font-18{
+  font-size: 18px;
+}
+.font-22{
+  font-size: 22px;
+}
+.font-30{
+  font-size: 30px;
+}
+.font-40{
+  font-size: 40px;

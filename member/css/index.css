@@ -1,0 +1,155 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.font-lemon{
+	font-family: 'Lemonada', cursive;
+}
+.font-play{
+	font-family: 'Playfair Display', serif;
+}
+.font-tit{
+	font-family: 'Titillium Web', sans-serif;
+}
+.font-flower{
+	font-family: 'Indie Flower', cursive;
+}
+.font-14{
+	font-size: 14px;
+}
+.font-16{
+	font-size: 16px;
+}
+.font-18{
+	font-size: 18px;
+}
+.font-22{
+	font-size: 22px;
+}
+.font-30{
+	font-size: 30px;
+}
+.font-50{
+	font-size: 50px;
+}
+
+.font-author{
+	color: #E1AA80;
+}
+.text-skyblue{
+	color: #238AE6;
+}
+.top-navbar{
+	border-bottom: 1px solid #000;
+	background:#FFF;
+}
+.navbar-toggler:focus{
+ border: none;
+ outline: none;
+}
+#info{
+	/* border-bottom: 1px solid #000; */
+}
+#info img{
+	
+	width: 100%;
+	height: 70vh;
+}
+
+#info h2{
+	margin-top: 10%;
+}
+#info p{
+	width: 81%;
+	margin-left: 8%;
+}
+#info button{
+	width: 24%;
+	height: 54px;
+	border:none;
+	border-radius: 10px;
+	outline: none;
+	color: #FFF;
+	background:#000;
+	transition: .1s;
+	margin-left: 8%;
+	margin-bottom: 5%;
+
+}
+#info button:hover{
+	border: 1px solid #000;
+	color: #000;
+	background: #fff;
+}
+.carousel {
+	animation: Slide_up 3.5s ease;
+}
+@keyframes Slide_up{
+	from{
+		
+		margin-top: 10%;
+		
+	}
+	to{
+		transform: translateX(0);
+		margin-top: 0%;
+	}
+}
+#footer{
+	background: #F7F7F7;
+}
+@media  screen and (max-width: 768px) {
+	#info h2{
+		font-size: 35px;
+	}
+	#info span{
+		font-size: 21px;
+	}
+	#info p{
+		font-size: 15px;
+	}
+}
+#news img{
+	width: 220px;
+	height: 255px;
+	border-radius: 5px;	
+	-webkit-box-shadow: 11px -2px 7px -2px rgba(224,224,224,0.86);
+	-moz-box-shadow: 11px -2px 7px -2px rgba(224,224,224,0.86);
+	box-shadow: 11px -2px 7px -2px rgba(224,224,224,0.86);
+
+	} 
+
+@media screen and (max-width: 768px){
+
+#news .book1{
+	margin-top: 20px;
+	position: relative;
+	right:-19%;
+}
+#news .book2{
+	margin-top: 20px;
+}
+#news .book3{
+	margin-top: 20px;
+	position: relative;
+	right: -18%;
+}
+
+} 
+.carousel-inner .carousel-caption h2{
+
+
+	letter-spacing: 3px;
+	color: #ffffff;
+	margin-bottom: 20px;
+
+} 
+@media screen and (max-width:768px){
+	
+.carousel-inner .carousel-caption h2{
+	font-size: 25px;
+	margin-bottom:-30px;
+
+
+} 
+}

@@ -1,0 +1,105 @@
+body{
+	margin: 0;
+	padding: 0;
+	background:#FBEBFC;	
+}
+.font-lemon{
+	font-family: 'Lemonada', cursive;
+}s
+.font-play{
+	font-family: 'Playfair Display', serif;
+}
+.font-tit{
+	font-family: 'Titillium Web', sans-serif;
+}
+.font-flower{
+	font-family: 'Indie Flower', cursive;
+}
+.font-10{
+	font-size: 10px;
+}
+.font-14{
+	font-size: 14px;
+}
+.font-18{
+	font-size: 18px;
+}
+.font-30{
+	font-size: 30px;
+}
+form{	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+	height: 550px;
+	background: #fff;
+	-webkit-box-shadow: 9px 2px 5px 3px rgba(194,180,194,0.38);
+	-moz-box-shadow: 9px 2px 5px 3px rgba(194,180,194,0.38);
+	box-shadow: 9px 2px 5px 3px rgba(194,180,194,0.12);
+	padding: 50px;
+}
+.container h2{
+	margin: -15px 0px 10px;
+	padding: 0;
+}
+.container input[type="text"]{
+	margin-top: 40px;
+}.container input[type="password"]{
+	margin-top: 40px;
+}
+.container .input-group input{
+	width: 100%;
+	border:none;
+	outline: none;
+	border-bottom: 1px solid #0C0C05;
+	transition: 0.5s all ease;
+	
+}
+.container .input-group label{
+	position: absolute;
+	top: -10%;
+	left: 0%;
+	opacity: 0.5;
+
+}
+ .field_label{
+	pointer-events: none;	
+	transition: 0.5s all ease;
+}
+input:focus + .field_label{
+	font-size:12px;	
+	transform: translateY(-70%);
+	
+}
+
+.container .input-group input[type="submit"]{
+	background:#000000;		
+	border-bottom:none;
+	transition: 0.5s;
+	height: 35px;
+	color: white;
+}
+.container .input-group input[type="submit"]:hover{
+	border:0.5px solid black;
+	background: #fff;
+	color: black;
+}
+.container  a{
+	text-decoration: none;
+	color:#777;
+	font-weight: bold;
+	display: inline-block;
+	transition: 0.5s all ease;
+}
+.container  a{
+	color: black;
+	position:absolute;
+	top: 13px;
+	right: 30px;
+}
+.container a:hover{
+	color: #FF2700;
+	transform: translate(0,-5%);
+}

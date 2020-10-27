@@ -1,0 +1,129 @@
+body{
+	margin: 0;
+	padding: 0;
+	background:#FBEBFC !important;
+}
+.font-lemon{
+	font-family: 'Lemonada', cursive;
+}
+.font-play{
+	font-family: 'Playfair Display', serif;
+}
+.font-tit{
+	font-family: 'Titillium Web', sans-serif;
+}
+.font-flower{
+	font-family: 'Indie Flower', cursive;
+}
+.font-12{
+	font-size: 12px;
+}
+.font-14{
+	font-size: 14px;
+}
+.font-16{
+	font-size: 16px;
+}
+.font-18{
+	font-size: 18px;
+}
+.font-22{
+	font-size: 22px;
+}
+.font-25{
+	font-size: 25px;
+}
+.font-30{
+	font-size: 30px;
+}
+.font-50{
+	font-size: 50px;
+}
+.font-author{
+	color: #E1AA80;
+}
+.bg-round{
+	border-radius: 5px;
+}
+.dropdown-item:hover{
+	border-bottom: 1px solid #F4F1EA;
+}
+.navbar-toggler:focus{
+ border: none;
+ outline: none;
+}
+.search{
+	
+	height: 40px;
+	border-radius: 40px;
+	
+	background: #Fff;
+}
+
+.search:hover >.search-text{
+	width: 400px;
+	border-bottom: 1px solid #000;
+}
+.search-button{
+	color:#000;
+	font-size: 22px;
+}
+.search-button:hover{
+	
+	color: green;
+	text-decoration: none;
+}
+.search-text{
+	border: none;
+	outline: none;
+	width:0px;
+	line-height: 30px;
+	color:#000;
+	width: 0px;
+	position: relative;
+	top: 0%;
+	transition:4s;
+	background:#Fff;
+}
+
+nav {
+	background: #F4F1EA;
+
+}
+nav li a:hover{
+	border-bottom: 1px solid black;
+	transition:0.5s;
+	transform: translateY(15%);
+}
+.books-info img{
+
+	width: 100%;
+	
+	-webkit-box-shadow: 11px -2px 7px -2px rgba(224,224,224,0.86);
+	-moz-box-shadow: 11px -2px 7px -2px rgba(224,224,224,0.86);
+	box-shadow: 11px -2px 7px -2px rgba(224,224,224,0.5);
+}
+.books-info p{
+	letter-spacing: 2px;
+
+}
+
+.books-info a{
+	color:red;
+}
+@media screen and (max-width: 768px){
+	.search:hover >.search-text{
+	width: 200px;
+	border-bottom: 1px solid #000;
+	}
+}
+
+
+.you-may-also-like-books img{
+	width: 220px;
+	height: 200px;
+		
+	-webkit-box-shadow: 11px -2px 7px -2px rgba(224,224,224,0.86);
+	-moz-box-shadow: 11px -2px 7px -2px rgba(224,224,224,0.86);
+	box-shadow: 11px -2px 7px -2px rgba(224,224,224,0.86);
+}
